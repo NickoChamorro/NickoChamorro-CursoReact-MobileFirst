@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Design</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body ontouchstart>
+    <header class="header">
+            <div class="logo">
+                <h2 class="logo__h2">KM</h2>
+            </div>
+            <div class="cajaBoton">
+                <button id="boton-menu" class="cajaBoton__boton"><i class="fas fa-bars"></i></button>
+            </div>
+            <nav class="nav">
+                <ul class="nav__ul">
+                    <li class="nav__li"> 
+                        <a class="nav__a" href="#main" onclick="closeMenu()">home</a>
+                    </li>
+                    <li class="nav__li">
+                        <a class="nav__a" href="#articulos" onclick="closeMenu()">productos</a>
+                    </li>
+                    <li class="nav__li">
+                        <a class="nav__a" href="#contacto" onclick="closeMenu()">contacto</a>
+                    </li>
+                </ul>
+            </nav>
+        </nav>
+    </header>
+    <section id="main" class="main">
+        <h1 class="main__h1">king<br>market</h1>
+        <p class="main__p">Encontrá los <strong>mejores productos</strong> del mercado.</p>
+        <p class="main__p">Al mejor <strong>precio</strong> y con la mejor <strong>financiación</strong>.</p>
+        <a class="main__a" href="#articulos"><strong>Comenzar</strong></a>
+    </section>
+    <section id="articulos" class="articulos">
+        <article class="art">
+            <img class="art__img" src="./img/1.webp" alt="Celular">
+            <div class="art__capa">
+                <h3 class="art__h3">Celular S20 FE</h3>
+                <p class="art__p">Nuevo modelo Samsung Galaxy S20 FE Qualcomm Azul 128Gb</p>
+            </div>
+        </article>
+        <article class="art">
+            <img class="art__img" src="./img/2.webp" alt="TV">
+            <div class="art__capa">
+                <h3 class="art__h3">Smart TV Samsung 50"</h3>
+                <p class="art__p">Nuevo Smart TV Samsung 50 pulgadas 4k UHD 50AU7000</p>
+            </div>
+        </article>
+        <article class="art">
+            <img class="art__img" src="./img/3.webp" alt="Lavarropas">
+            <div class="art__capa">
+                <h3 class="art__h3">Lavarropas Drean</h3>
+                <p class="art__p">Nuevo lavarropas Drean Next 8kg 1200RPM ECO blanco</p>
+            </div>
+        </article>
+        <article class="art">
+            <img class="art__img" src="./img/4.webp" alt="Bicicleta">
+            <div class="art__capa">
+                <h3 class="art__h3">Bicicleta Nordic</h3>
+                <p class="art__p">Nueva bicicleta Nordic Rodado 29 21v.(Shimano) F/disco Susp.</p>
+            </div>
+        </article>
+    </section>
+    <section id="contacto" class="contacto">
+            <h2 class="contacto__h2">Sedes</h2>
+            <h3 class="contacto__h3" ><u>Microcentro</u>:</h3>
+            <div class="contacto_sede sede">
+                <h3 class="sede__h3">Dirección:</h3>
+                <p class="sede__p">Av. Corrientes 1001, CABA.</p>
+                <h3 class="sede__h3" >Tel:</h3>
+                <p class="sede__p">(011)4545-4545/5454</p>
+            </div>
+            <h3 class="contacto__h3"><u>Zona norte</u>:</h3>
+            <div class="contacto_sede sede">
+                <h3 class="sede__h3" >Dirección:</h3>
+                <p class="sede__p">Av. Libertador 2920, Olivos.</p>
+                <h3 class="sede__h3" >Teléfono:</h3>
+                <p class="sede__p">(011)4545-3232/3223</p>
+            </div>
+            <h3 class="contacto__h3"><u>Zona sur</u>:</h3>            
+            <div class="contacto_sede sede">
+                <h3 class="sede__h3" >Dirección:</h3>
+                <p class="sede__p">Av. Hipólito Yrigoyen 4651, Lanus.</p>
+                <h3 class="sede__h3" >Teléfono:</h3>
+                <p class="sede__p">(011)4545-2525/2552</p>
+            </div>
+            <br>
+            <h3 class="contacto__h3" ><u>Casilla de correo</u>:</h3>
+            <p class="contacto__p">contacto@cervecerialeon.com</p>
+            <p class="contacto__p--red">También nos pueden encontrar por redes sociales:</p>
+            <div class="contacto__redes redes">
+                <a class="redes__a" href="https://twitter.com/?lang=es" target="_blank"><i class="fa-brands fa-twitter" aria-hidden="true"></i></a>
+                <a class="redes__a" href="https://es-la.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-square" aria-hidden="true"></i></a>
+                <a class="redes__a" href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a> 
+            </div>
+    </section>
+
+    <script src="https://kit.fontawesome.com/45f945ceff.js" crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
